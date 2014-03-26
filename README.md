@@ -7,10 +7,13 @@ repo directory as:
 
     ipython notebook
 
-There are two notebooks to choose from. One contains the complete notes for the tutorial, while the other mostly contains just the headings
-of each topic. The latter is provided if you want to type and run the commands during the live coding session yourself.
+There are three notebooks to choose from:
 
-Links will be provided to view a static version of the notebook.
+- `pghpy_numpy_intro.ipynb` -- Contains the complete code with rendered output
+- `pghpy_numpy_intro_livecode.ipynb` -- Contains section headings
+- `pghpy_numpy_intro_nooutput.ipynb` -- Contains the complete code but with un-executed cells
+
+To view a static version of the complete notebook, open `pghpy_numpy_intro.html` in your browser.
 
 Requirements
 ------------
@@ -33,5 +36,12 @@ If you find that both of these distributions are too heavy, you might also want 
 Continuum's [miniconda](http://conda.pydata.org/miniconda.html) and then just install the packages you want
 from the command line.
 
-Another alternative is to run IPython in the cloud using a free account on Continuum's [Wakari](https://www.wakari.io/) platform.
-I'll post a link to the notebook hosted on Wakari before the event.
+
+Attribution
+-----------
+
+This notebook was based largely on Jake VanderPlas's "Scientific Computing with Python" lecture on Numpy among other resources cited
+at the end of the notebook:
+
+http://www.astro.washington.edu/users/vanderplas/Astr599/schedule
+
